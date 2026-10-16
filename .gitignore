@@ -1,0 +1,11 @@
+# Secrets et identifiants — jamais poussés sur GitHub
+secrets/*
+!secrets/README.md
+*.credentials.json
+.env
+
+# Fichiers temporaires et système
+.DS_Store
+Thumbs.db
+*.tmp
+__pycache__/
